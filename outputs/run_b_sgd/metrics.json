@@ -1,0 +1,116 @@
+{
+  "best_val_loss": 1.444735864356712,
+  "best_val_acc": 0.46296296296296297,
+  "test_loss": 1.3949557560461538,
+  "test_acc": 0.45555555555555555,
+  "class_names": [
+    "Crazing",
+    "Inclusion",
+    "Patches",
+    "Pitted_Surface",
+    "Rolled-in_Scale",
+    "Scratches"
+  ],
+  "classification_report": {
+    "Crazing": {
+      "precision": 0.45454545454545453,
+      "recall": 0.5555555555555556,
+      "f1-score": 0.5,
+      "support": 45.0
+    },
+    "Inclusion": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 45.0
+    },
+    "Patches": {
+      "precision": 0.4880952380952381,
+      "recall": 0.9111111111111111,
+      "f1-score": 0.6356589147286822,
+      "support": 45.0
+    },
+    "Pitted_Surface": {
+      "precision": 0.5588235294117647,
+      "recall": 0.4222222222222222,
+      "f1-score": 0.4810126582278481,
+      "support": 45.0
+    },
+    "Rolled-in_Scale": {
+      "precision": 0.3333333333333333,
+      "recall": 0.37777777777777777,
+      "f1-score": 0.3541666666666667,
+      "support": 45.0
+    },
+    "Scratches": {
+      "precision": 0.45652173913043476,
+      "recall": 0.4666666666666667,
+      "f1-score": 0.46153846153846156,
+      "support": 45.0
+    },
+    "accuracy": 0.45555555555555555,
+    "macro avg": {
+      "precision": 0.38188654908603753,
+      "recall": 0.45555555555555555,
+      "f1-score": 0.40539611686027643,
+      "support": 270.0
+    },
+    "weighted avg": {
+      "precision": 0.3818865490860376,
+      "recall": 0.45555555555555555,
+      "f1-score": 0.4053961168602765,
+      "support": 270.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      25,
+      0,
+      12,
+      5,
+      3,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      5,
+      17,
+      20
+    ],
+    [
+      0,
+      0,
+      41,
+      4,
+      0,
+      0
+    ],
+    [
+      9,
+      0,
+      12,
+      19,
+      3,
+      2
+    ],
+    [
+      13,
+      0,
+      11,
+      1,
+      17,
+      3
+    ],
+    [
+      5,
+      0,
+      8,
+      0,
+      11,
+      21
+    ]
+  ],
+  "resolved_data_dir": "D:\\KHMT_16-01\\Deep learning\\NEU-CLS_extracted"
+}
